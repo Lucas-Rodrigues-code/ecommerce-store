@@ -15,7 +15,7 @@ export default function CartPage() {
   }, []);
 
   const cart = useCart();
-  /* if (!isMounted) return null; */
+  if (!isMounted) return null;
 
   return (
     <div className="bg-white">
